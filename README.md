@@ -41,8 +41,8 @@ then
 ### Your Submission
 
 Once you have your list of 100 transactions, rank them from 0 to 99 (where 0 is the transaction most likely to be
-fraudulent), save this as a csv and upload it to the submission folder in this repo with the file name 
-`team_<your-team-name>.csv`, you can see the example file there also if you are unsure about how it should be formatted.
+fraudulent (i.e. is the biggest anomaly)), save this as a csv with the file name `team_<your-team-name>.csv` and send it to
+a.biffin@vanlanschotkempen.com. You can see an example file in the `/submission/` folder if you are unsure about how it should be formatted.
 
 ### Useful libraries
 
@@ -56,4 +56,7 @@ include:
 ### Tips
 
 - Note that the level of contamination (i.e. proportion of transactions which are fraudulent) in datasets such as this
-is very small, around the 0.1% level
+is very small, around the 0.1% level.
+- If your dataset is too large to visualize, you can try picking out the transactions you are most confident are
+anomalies and label them '1', then sample from the remaining transactions and label them '0'. Plotting both these
+populations might give you away to visualize anomalous transactions.
