@@ -25,9 +25,18 @@ highlighting novel approaches and/or attempts to visualize anomalies will be sco
 
 ### The Dataset
 
-The dataset consists of 284,807 transactions, each of these transactions is associated with a euro value ('Amount') and
-a unique ID ('Transaction_ID'). Each transaction is further characterized by 28 features, labelled X01-X28. No data
-cleaning is required of this dataset before starting your analysis.
+The dataset is located in the `/data/` folder of this repo. It consists of 284,807 transactions, each of these
+transactions is associated with a euro value ('Amount') and a unique ID ('Transaction_ID'). Each transaction is further
+characterized by 28 features, labelled X01-X28. No data cleaning is required of this dataset before starting your
+analysis.
+
+If you're familiar with the [git lfs](https://git-lfs.com/) library, you can simply clone this repo and the data in it, if you're not familiar
+with this, simply download the data from the repo by right clicking on the download button, and choosing `Save Link As` as shown below:
+![./images/downloading.png](./images/downloading.png)
+
+then
+
+![./images/saving.png](./images/saving.png)
 
 ### Your Submission
 
@@ -48,7 +57,3 @@ include:
 
 - Note that the level of contamination (i.e. proportion of transactions which are fraudulent) in datasets such as this
 is very small, around the 0.1% level
-
-
-### Submission
-
