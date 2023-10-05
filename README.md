@@ -38,9 +38,11 @@ then simply unzip the file on your laptop.
 
 ### Your Submission
 
-Once you have your list of 100 transactions, rank them from 0 to 99 (where 0 is the transaction most likely to be
+Once you have your list of 100 transactions, rank them from 1 to 100 (where 1 is the transaction most likely to be
 fraudulent (i.e. is the biggest anomaly)), save this as a csv with the file name `team_<your-team-name>.csv` and send it to
-a.biffin@vanlanschotkempen.com. You can see an example file in the `/submission/` folder if you are unsure about how it should be formatted.
+`a (dot) biffin (at symbol) vanlanschotkempen (dot) com`. This file should only have two columns; "Rank" and "Transaction_ID"
+**any other format will not be accepted by the scoring function**. Please see the example file in the `/submission/` folder
+if you are unsure about how your submission should be formatted.
 
 ### Useful libraries
 
