@@ -1,4 +1,4 @@
-# FSA Data Science Competition 2023 @ Van Lanschot Kempen
+# Data Science hiring use case @ Van Lanschot Kempen
 
 ![./images/vlk.png](./images/vlk.png)
 
@@ -15,13 +15,15 @@ sufficient to detect today’s fraud.
 ### Usecase
 
 Van Lanschot Kempen would like the students to build an anomaly detection algorithm to detect suspicious transactions in
-an anonymized credit card transaction dataset. Assessment of the students’ work will consider two elements:
+an anonymized credit card transaction dataset. Assessment of the applicant's work will consider the following elements:
 
-(1) Guided by their models, they will choose the 100 most suspicious transactions within the dataset and these will be
+(1) Guided by their models, the applicant will choose the 100 most suspicious transactions within the dataset and these will be
 compared with the true labels to calculate a precision score
 
-(2) Students will prepare a short presentation describing their methodology for anomaly detection. Presentations
-highlighting novel approaches and/or attempts to visualize anomalies will be scored highly.
+(2) The applicant will include steps taken to validate the model performance, set up code for deployment, and productionizing the model.
+
+(3) The applicant will prepare a short presentation describing their methodology for anomaly detection. Presentations
+highlighting novel approaches and/or attempts to visualize anomalies.
 
 ### The Dataset
 
@@ -39,19 +41,11 @@ then simply unzip the file on your laptop.
 ### Your Submission
 
 Once you have your list of 100 transactions, rank them from 1 to 100 (where 1 is the transaction most likely to be
-fraudulent (i.e. is the biggest anomaly)), save this as a csv with the file name `team_<your-team-name>.csv` and send it to
-`a (dot) biffin (at symbol) vanlanschotkempen (dot) com`. This file should only have two columns; "Rank" and "Transaction_ID"
+fraudulent (i.e. is the biggest anomaly)), save this as a csv with the file name `team_<your-team-name>.csv` and send it along with your code to
+`a.ramamurthy@vanlanschotkempen.com`. This file should only have two columns; "Rank" and "Transaction_ID"
 **any other format will not be accepted by the scoring function**. Please see the example file in the `/submission/` folder
 if you are unsure about how your submission should be formatted.
 
-### Useful libraries
-
-As well as your preferred data/analytics libraries (e.g. [pandas](https://pandas.pydata.org/),
-[numpy](https://numpy.org/), [scipy](https://scipy.org/)), some useful python libraries for solving this usecase
-include:
-
-- [sklearn](https://scikit-learn.org/stable/)
-- [pyOD](https://pyod.readthedocs.io/en/latest/)
 
 ### Tips
 
