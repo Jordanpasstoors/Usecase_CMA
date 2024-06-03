@@ -1,4 +1,4 @@
-# Data Science Competition 2024 @ Van Lanschot Kempen
+# FSA Data Science Competition 2024 @ Van Lanschot Kempen
 
 ![./images/vlk.png](./images/vlk.png)
 
