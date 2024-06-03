@@ -1,4 +1,4 @@
-# FSA Data Science Competition 2023 @ Van Lanschot Kempen
+# Data Science Competition 2024 @ Van Lanschot Kempen
 
 ![./images/vlk.png](./images/vlk.png)
 
