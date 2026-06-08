@@ -1,4 +1,4 @@
-# Data Science Competition 2025 @ Van Lanschot Kempen
+# Data Science Competition 2026 @ Van Lanschot Kempen
 
 ![./images/vlk.png](./images/vlk.png)
 
